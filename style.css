@@ -1,0 +1,43 @@
+/* Style.css */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #e0f7fa; /* Light cyan background */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    background-color: #ffffff; /* White background for the container */
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    border: 2px solid #00796b; /* Dark cyan border */
+    max-width: 400px;
+    width: 100%;
+}
+
+h1 {
+    color: #00796b; /* Dark cyan for the title */
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+#data p {
+    font-size: 24px;
+    margin: 15px 0;
+    color: #004d40; /* Darker cyan for the text */
+}
+
+#data p span {
+    font-weight: bold;
+    color: #d32f2f; /* Red color for heart rate */
+}
+
+#data p:nth-child(2) span {
+    color: #388e3c; /* Green color for SpO2 */
+}
+
